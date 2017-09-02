@@ -1,6 +1,3 @@
-#
-# Executes commands at the start of an interactive session.
-#
 # Rizky Ariestiyansyah Zsh
 
 # Source Prezto.
@@ -14,7 +11,7 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
-# Virtualenvwrapper 
+# Virtualenvwrapper
 export WORKON_HOME=~/.virtualenv/
 source /usr/local/bin/virtualenvwrapper.sh
 
