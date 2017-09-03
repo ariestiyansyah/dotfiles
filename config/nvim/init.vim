@@ -6,6 +6,8 @@ Plug 'godlygeek/tabular'           " This must come before plasticboy/vim-markdo
 Plug 'tpope/vim-rhubarb'           " Depenency for tpope/fugitive
 
 " General plugins
+Plug 'zchee/deoplete-jedi'
+Plug 'Shougo/deoplete.nvim'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'  " Default snippets for many languages
@@ -92,7 +94,7 @@ if has('nvim')
     " install the neovim package for these binaries separately like this for
     " example:
     " pip3.6 install -U neovim
-    let g:python_host_prog = '/usr/local/bin/python2.7'
+    let g:python_host_prog = '/usr/bin/python'
     let g:python3_host_prog = '/usr/local/bin/python3.6'
 endif
 
