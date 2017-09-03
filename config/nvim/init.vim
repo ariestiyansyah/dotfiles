@@ -8,6 +8,7 @@ Plug 'tpope/vim-rhubarb'           " Depenency for tpope/fugitive
 " General plugins
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/deoplete.nvim'
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'  " Default snippets for many languages
@@ -96,6 +97,11 @@ if has('nvim')
     " pip3.6 install -U neovim
     let g:python_host_prog = '/usr/bin/python'
     let g:python3_host_prog = '/usr/local/bin/python3.6'
+endif
+
+if has('nvim')
+    " Enable deoplete on startup
+    let g:deoplete#enable_at_startup = 1
 endif
 
 " Enable mouse if possible
