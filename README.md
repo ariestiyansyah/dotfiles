@@ -2,10 +2,10 @@
 
 Say hai to alula
 
-[ALula](alula.jpg)
+![ALula](alula.jpg)
 
 # Usage
 
-Run Install script `bash install.sh` *WIP*
+Run Install script `bash install.sh`
 
 
