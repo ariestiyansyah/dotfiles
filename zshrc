@@ -54,3 +54,12 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+#export SDKMAN_DIR="/Users/ariestiyansyah/.sdkman"
+#[[ -s "/Users/ariestiyansyah/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/ariestiyansyah/.sdkman/bin/sdkman-init.sh"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Implement fastlane
+export PATH="$HOME/.fastlane/bin:$PATH"

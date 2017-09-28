@@ -6,6 +6,8 @@ Plug 'godlygeek/tabular'           " This must come before plasticboy/vim-markdo
 Plug 'tpope/vim-rhubarb'           " Depenency for tpope/fugitive
 
 " General plugins
+
+Plug 'rust-lang/rust.vim'
 Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/deoplete.nvim'
 Plug 'zchee/deoplete-go', { 'do': 'make'}
@@ -67,7 +69,7 @@ set autoread                      " reload file if the file changes on the disk
 set autowrite                     " write when switching buffers
 set autowriteall                  " write on :quit
 set clipboard=unnamedplus
-set colorcolumn=81                " highlight the 80th column as an indicator
+"set colorcolumn=81                " highlight the 80th column as an indicator
 set completeopt-=preview          " remove the horrendous preview window
 set cursorline                    " highlight the current line for the cursor
 set encoding=utf-8
@@ -669,6 +671,14 @@ au FileType python set expandtab
 au FileType python set shiftwidth=4
 au FileType python set softtabstop=4
 au FileType python set tabstop=4
+
+"----------------------------------------------
+" Language: Rust
+" ---------------------------------------------
+au FileType rust set expandtab
+au FileType rust set shiftwidth=4
+au FileType rust set softtabstop=4
+au FileType rust set tabstop=4
 
 "----------------------------------------------
 " Language: Ruby
