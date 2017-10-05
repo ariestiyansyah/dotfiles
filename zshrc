@@ -67,6 +67,7 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 #ALIAS HERE
 alias sl="ls"
 alias portainer="docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/portainer:/data portainer/portainer"
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 ## Kubectl
 if [ $commands[kubectl] ]; then
